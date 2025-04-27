@@ -72,6 +72,24 @@ Based on the result:
 ---
 
 # Steps
+
+a. **Input**  
+   - Provide a point cloud centered near the estimated object location.
+
+b. **Graph Construction**  
+   - Build a k-nearest neighbors (k-NN) graph connecting each point to its closest neighbors.
+
+c. **Background Penalty Assignment**  
+   - Assign a penalty to each point based on its distance from the object center.
+   - Penalty increases as distance increases.
+
+d. **Foreground Constraint Selection**  
+   - Automatic Mode: select a foreground seed point automatically.
+   - Interactive Mode: user manually selects foreground and background points.
+
+e. **Segmentation via Min-Cut**  
+   - Compute the minimum cut on the graph to divide the points into foreground (object) and background.
+
 ![](Images/steps.png)
 
 

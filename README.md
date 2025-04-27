@@ -71,6 +71,10 @@ Based on the result:
 
 ---
 
+# Steps
+![](Images/steps.png)
+
+
 # Parameters
 
 - **Smooth cost** encourages neighboring points to be classified similarly.
@@ -88,6 +92,13 @@ Based on the result:
 | Foreground penalty | Constant user-defined weight |
 | Background penalty | \( \frac{\text{distanceToCenter}}{\text{radius}} \) |
 | Optimization | Find the minimum cut for segmentation |
+
+
+# Model Performance
+![](Images/metrics.png)
+
+
+
 
 
 

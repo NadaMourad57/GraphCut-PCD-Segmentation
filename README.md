@@ -88,3 +88,9 @@ Based on the result:
 | Foreground penalty | Constant user-defined weight |
 | Background penalty | \( \frac{\text{distanceToCenter}}{\text{radius}} \) |
 | Optimization | Find the minimum cut for segmentation |
+
+
+
+
+![Case Study: Cutters segmentation from fulldrillbit pcd](Images/drillbit.png)
+

@@ -91,6 +91,6 @@ Based on the result:
 
 
 
-
-![Case Study: Cutters segmentation from fulldrillbit pcd](Images/drillbit.png)
+#Case Study: Cutters segmentation from fulldrillbit pcd
+![](Images/drillbit.png)
 

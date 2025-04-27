@@ -1,6 +1,5 @@
 # GraphCut-PCD-Segmentation
 
-
 The idea of the algorithm is as follows:
 
 Given a point cloud, the algorithm constructs a graph where:
@@ -18,9 +17,9 @@ The algorithm assigns **weights** to the edges in the graph. These weights are o
 
 The weight assigned to edges between neighboring cloud points is called the **smooth cost**, calculated as:
 
-\[
+$$
 \text{smoothCost} = e^{-\left(\frac{d}{\sigma}\right)^2}
-\]
+$$
 
 where:
 - \( d \) is the Euclidean distance between two points,
@@ -42,15 +41,15 @@ The data cost has two components:
 - **Background Penalty (Sink Edge):**  
   A value proportional to the point’s distance from the expected object center, calculated as:
 
-\[
+$$
 \text{backgroundPenalty} = \frac{\text{distanceToCenter}}{\text{radius}}
-\]
+$$
 
 where:
 
-\[
+$$
 \text{distanceToCenter} = \sqrt{(x - \text{centerX})^2 + (y - \text{centerY})^2}
-\]
+$$
 
 with:
 - \( (x, y) \) being the horizontal coordinates of the point,
@@ -73,13 +72,14 @@ Based on the result:
 ---
 
 # Parameters
+
 - **Smooth cost** encourages neighboring points to be classified similarly.
 - **Foreground and background penalties** guide the segmentation based on proximity to the object center.
 - **Minimum cut** balances smoothness and data penalties to achieve robust segmentation even in noisy or cluttered environments.
 
 ---
 
-#  Summary Table
+# Summary Table
 
 | Component | Description |
 |:---|:---|
@@ -88,4 +88,3 @@ Based on the result:
 | Foreground penalty | Constant user-defined weight |
 | Background penalty | \( \frac{\text{distanceToCenter}}{\text{radius}} \) |
 | Optimization | Find the minimum cut for segmentation |
-

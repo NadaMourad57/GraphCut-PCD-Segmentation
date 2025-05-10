@@ -8,5 +8,8 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable (min_cut_segmentation min_cut_segmentation.cpp)
+add_executable (min_cut_segmentation min_cut_segmentation.cpp )
+add_executable(cutters_segmentation cutters_segmentation.cpp)
+
 target_link_libraries (min_cut_segmentation ${PCL_LIBRARIES})
+target_link_libraries (cutters_segmentation ${PCL_LIBRARIES})

@@ -52,9 +52,9 @@ $$
 $$
 
 with:
-- \( (x, y) \) being the horizontal coordinates of the point,
-- \( (\text{centerX}, \text{centerY}) \) being the approximate center of the object,
-- \( \text{radius} \) being the user-defined expected horizontal extent of the object.
+- $$\( (x, y) \) being the horizontal coordinates of the point$$
+- $$\( (\text{centerX}, \text{centerY}) \) being the approximate center of the object$$
+- $$\( \text{radius} \) being the user-defined expected horizontal extent of the object$$
 
 **Interpretation:**  
 Points farther from the center are more heavily penalized and thus encouraged to be classified as background.

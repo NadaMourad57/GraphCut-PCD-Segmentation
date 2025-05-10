@@ -1,0 +1,4 @@
+/home/cortex/GraphCut-PCD-Segmentation/build/CMakeFiles/min_cut_segmentation.dir
+/home/cortex/GraphCut-PCD-Segmentation/build/CMakeFiles/cutters_segmentation.dir
+/home/cortex/GraphCut-PCD-Segmentation/build/CMakeFiles/edit_cache.dir
+/home/cortex/GraphCut-PCD-Segmentation/build/CMakeFiles/rebuild_cache.dir

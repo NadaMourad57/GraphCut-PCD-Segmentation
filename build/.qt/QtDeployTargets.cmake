@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_min_cut_segmentation_FILE /Users/nadamourad/Desktop/GraphCut-PCD-Segmentation/build/min_cut_segmentation)
+set(__QT_DEPLOY_TARGET_min_cut_segmentation_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_cutters_segmentation_FILE /Users/nadamourad/Desktop/GraphCut-PCD-Segmentation/build/cutters_segmentation)
+set(__QT_DEPLOY_TARGET_cutters_segmentation_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_find_plane_FILE /Users/nadamourad/Desktop/GraphCut-PCD-Segmentation/build/find_plane)
+set(__QT_DEPLOY_TARGET_find_plane_TYPE EXECUTABLE)

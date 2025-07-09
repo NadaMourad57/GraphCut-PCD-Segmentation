@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/cortex/GraphCut-PCD-Segmentation/min_cut_segmentation.cpp" "CMakeFiles/min_cut_segmentation.dir/min_cut_segmentation.cpp.o" "gcc" "CMakeFiles/min_cut_segmentation.dir/min_cut_segmentation.cpp.o.d"
+  "/Users/nadamourad/Desktop/GraphCut-PCD-Segmentation/min_cut_segmentation.cpp" "CMakeFiles/min_cut_segmentation.dir/min_cut_segmentation.cpp.o" "gcc" "CMakeFiles/min_cut_segmentation.dir/min_cut_segmentation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
